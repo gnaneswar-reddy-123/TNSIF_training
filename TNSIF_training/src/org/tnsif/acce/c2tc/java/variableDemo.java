@@ -6,9 +6,11 @@ public class variableDemo {
 		String msg = "cambridge";
 		System.out.print(msg);
 	}
-	
+	static int price2 = 22;
 	public static void main(String []args) {
 		variableDemo vr = new variableDemo();
 		vr.print();
+		System.out.print(price2);
+		
 	}
 }
